@@ -1,0 +1,181 @@
+/* Page */
+html {
+    height: 100%;
+    background-image: url("Roma.jpg");
+}
+
+body {
+    text-align: center;
+}
+
+#gb_Ud {
+    height: 48px;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#gb_1a {
+    margin: 0px 0px 2px;
+    padding: 0px 0px 0px 16px;
+    width: 384px;
+}
+
+#gb_1b {
+    /* width: 221px; */
+    justify-content: flex-end;
+    padding: 0px 4px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+#gmail_images {
+    padding: 0px 15px 0px 0px;
+    display: flex;
+}
+
+#gmail {
+    padding: 0px 0px 0px 15px;
+}
+#gmail a {
+    color: white;
+    text-decoration: none;
+}
+
+#images {
+    padding: 0px 0px 0px 15px;
+}
+#images a {
+    color: white;
+    text-decoration: none;
+}
+
+#apps {
+    padding: 4px 2px 4px 0px;
+    height: 40px;
+    align-items: center;
+}
+#apps a{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px;
+    height: 24px;
+    width: 24px;
+    
+}
+#apps svg{
+    height: 24px;
+    width: 24px;
+}
+#apps path {
+    color: white;
+    text-decoration: none;
+}
+
+#account {
+    padding: 4px 2px 4px 6px;
+    height: 40px;
+    align-items: center;
+}
+#account a{
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    width: 32px;
+}
+#account img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+#logo {
+    padding-top: 120px;
+    padding-bottom: 38px;
+}
+#logo h1 {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    color: white;
+    font-size: 82px; 
+    margin: 0px; 
+    text-align: center;
+}
+#inputWrapper {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
+}
+#content .img{
+    height: 25px;
+    width: 25px;
+    border-radius: 60%;
+    background-color: transparent;
+}
+#inputWrapper #icon {
+    position: relative;
+    left: 40px;
+    top: 2px;
+}
+#inputWrapper #voiceSearchButton {
+    position: relative;
+    right: 40px;
+    top: 2px;
+    height: 40px;
+    width: 20px;
+}
+#inputWrapper #voiceSearchButton button {
+    height: 40px;
+    width: 26px;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+}
+#inputWrapper #voiceSearchButton #img_voice {
+    height: 22px;
+    width: 20px;
+    position: relative;
+    right: 4px;
+    top: 0px;
+    border-radius: 40%;
+}
+#inputWrapper #input {
+    display: flex;
+    height: 44px;
+}
+#inputWrapper input {
+    height: 38px;
+    width: 465px;
+    padding: 1px 40px 1px 52px;
+    border-radius: 25px;
+    border-image: initial;
+    border-color: initial;
+    border-style: inset;
+    border-width: 2px;
+}
+#container {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container #addShortcut {
+    background-color: red;
+    justify-content: center;
+    height: 120px;
+    width: 100px;
+    display: inline;
+    padding: 5px;
+}
+#container #addShortcut img{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#container #addoShortcut h5{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}

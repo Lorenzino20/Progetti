@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function visualizza(come) {
+                if(come) {
+                    var divs = document.getElementsByTagName("div");
+                    for(var i = 0; i < divs.length; i++) 
+                    divs[i].style.display = come;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <select onchange="visualizza(this.value)">
+        <option value="none">none</option>
+        <option value="inline">inline</option>
+        <option value="block">block</option>
+        <option value="inline-block">inline-block</option>
+    </select>
+    <div style="width: 400px;">Primo</div>
+    <div>Secondo</div>
+    <div>Terzo</div>
+    <div>Quarto</div>
+    <div>Quinto</div>
+    </body>
+</html>

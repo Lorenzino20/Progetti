@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sezione1 {
+    position: absolute;
+    left: auto;
+}
+
+#sezione1 .titolo {
+    background-color: blueviolet;
+}
+
+#sezione1 .paragrafo {
+    
+}
+
+#sezione2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+

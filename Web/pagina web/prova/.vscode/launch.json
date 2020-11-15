@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch",
+      "url": "file:///C:/Users/Martina%20&%20Manuel/Desktop/Lorenzo/Programmi%20VSC/pagina%20web/prova/index.html",
+      "webRoot": "${workspaceFolder}/public"
+    }
+  ]
+}
